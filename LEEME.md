@@ -20,6 +20,20 @@ Repositorio **temporal**. Está aquí por dos motivos:
 | `publicado.json` | lo ya publicado; evita duplicar |
 | `.github/workflows/publicar.yml` | el reloj |
 
+## Ojo: el anuncio narrado va a mano
+
+`clicas/anuncio-narrado.mp4` (19 s, con voz) es la unica pieza que **no** sale
+de `semana_instagram.py`. Se agrego a mano a `plan-publicacion.json` como
+historia del **1 de octubre a las 13:00**, delante de la historia del dia 1.
+
+Si se vuelve a generar el plan con `plan_publicacion.py`, **esa entrada
+desaparece** y hay que volver a agregarla. El generador no la conoce.
+
+Sale como historia y no como reel a peticion del usuario. Las historias no
+aceptan pie de foto por la API, asi que va sin texto: la direccion
+`clicas.app/estetica` esta dentro del propio video, grande y sostenida hasta el
+ultimo cuadro.
+
 ## Horario
 
 Una historia a las **13:00** y un reel a las **20:30**, hora de Chile,
