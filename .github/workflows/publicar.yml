@@ -1,0 +1,65 @@
+# Publica en Instagram a la hora que toca, sin que haya que tener ningún
+# computador encendido: esto corre en los servidores de GitHub.
+#
+# La API de Instagram NO sabe programar: hay que llamarla en el momento. Por eso
+# el reloj está aquí y no en Meta.
+name: Publicar en Instagram
+
+on:
+  schedule:
+    # GitHub usa UTC. Chile está en UTC-3 de septiembre a abril.
+    - cron: '5 16 * * *'     # 13:05 en Chile — la historia del día
+    - cron: '35 23 * * *'    # 20:35 en Chile — el reel del día
+  workflow_dispatch:
+    inputs:
+      ensayo:
+        description: Solo enseñar qué haría, sin publicar
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-instagram
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Publicar lo que ya tocaba
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          ENSAYO: ${{ inputs.ensayo }}
+        run: |
+          if [ -z "$IG_TOKEN" ]; then
+            echo "Falta el secreto IG_TOKEN en el repositorio." >&2
+            exit 1
+          fi
+          # En los disparos por reloj `inputs.ensayo` viene vacío: se publica
+          # de verdad. El ensayo solo ocurre cuando se pide a mano.
+          if [ "$ENSAYO" = "true" ]; then
+            python publicar_instagram.py --pendientes --ensayo
+          else
+            python publicar_instagram.py --pendientes
+          fi
+
+      - name: Anotar lo ya publicado
+        if: ${{ inputs.ensayo != 'true' }}
+        run: |
+          if [ -n "$(git status --porcelain publicado.json)" ]; then
+            git config user.name  "clicasist"
+            git config user.email "clicasist@gmail.com"
+            git add publicado.json
+            git commit -m "Registro: publicaciones de $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "nada nuevo que anotar"
+          fi
