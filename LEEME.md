@@ -57,3 +57,11 @@ Para revocarlo: Instagram → Configuración → **Aplicaciones y sitios web** �
 
 Borrar este repositorio. Los medios originales están en
 `Escritorio\dominique\instagram-semana`.
+
+## Anuncios por estilo (15-10-2026)
+
+`estilos/` — cuatro anuncios hechos con `clic-herramientas/generador-instagram/anuncios_estilos/`.
+Las cuatro **historias** se publicaron el 15-10 a mano (`--una`). Los **reels** salen solos:
+24, 25, 26 y 27 de octubre a las 20:30. Esos reels llevan `portada_ms: 8000` en el plan: el
+publicador lo manda como `thumb_offset` para que la portada sea el cuadro con todo a la vista
+(el primer cuadro de la animación está casi vacío). Probado con un contenedor real sin publicar.

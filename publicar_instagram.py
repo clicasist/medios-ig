@@ -148,6 +148,9 @@ def publicar(e, ig_id, token):
         campos['image_url'] = e['url']
     if e.get('texto'):
         campos['caption'] = e['texto']
+    if e.get('portada_ms') is not None and e['archivo'].endswith('.mp4'):
+        # Cuadro de la portada del reel (si no, Instagram usa el primero).
+        campos['thumb_offset'] = int(e['portada_ms'])
     contenedor = llamar('/%s/media' % ig_id, token, datos=campos)['id']
     esperar(contenedor, token)
     return llamar('/%s/media_publish' % ig_id, token,
