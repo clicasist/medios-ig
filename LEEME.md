@@ -76,3 +76,10 @@ las historias, pero con los tonos oscuros de la serie del perfil (`anuncios_esti
 reels oscuro`: el fondo de `fondo()` de marcas_instagram.py copiado en CSS, medido contra un cuadro real).
 Salen a las 20:30 del 24-10 al 04-11, con `portada_ms: 8000`. (Una primera versión con las escenas de
 la serie, `N-reel-serie.mp4`, se reemplazó el mismo día a pedido del dueño.)
+
+**Orden de los reels (16-10-2026, pedido del dueño): una serie por fila de la cuadrícula** y uno por día,
+siempre ClicAs → Clic Hotel → ClicVet dentro de cada fila (así cada fila se lee ClicVet | Clic Hotel | ClicAs).
+Filas: titular gigante 22-24/10 · página de reservas 25-27/10 · lista + teléfono 28-30/10 · máquinas
+31/10-02/11 (la de ClicAs ahora es VERDE) · rubros oscuros 03-05/11 · recorrido de las tres apps 06-08/11 ·
+lanzamiento + cuentas (Grupo Clic y ClicAs) 09-11/11. Antes de mover un reel, contar: si una fila queda
+con menos de tres, todo lo de abajo se corre.
