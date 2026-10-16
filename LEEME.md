@@ -65,3 +65,7 @@ Las cuatro **historias** se publicaron el 15-10 a mano (`--una`). Los **reels** 
 24, 25, 26 y 27 de octubre a las 20:30. Esos reels llevan `portada_ms: 8000` en el plan: el
 publicador lo manda como `thumb_offset` para que la portada sea el cuadro con todo a la vista
 (el primer cuadro de la animación está casi vacío). Probado con un contenedor real sin publicar.
+
+**Segunda tanda (16-10-2026), piezas 5 a 12:** cada app en los cuatro estilos (la máquina va rosa en
+ClicAs, lila en ClicVet y celeste en Clic Hotel). Historias a las 13:00 del 22 al 29-10 y reels a las
+20:30 del 28-10 al 04-11, todo programado en el plan (sale solo con el cron). Mismo `portada_ms: 8000`.
