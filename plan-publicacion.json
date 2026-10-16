@@ -476,6 +476,19 @@
   {
    "marca": "clichotel",
    "marca_nombre": "Clic Hotel",
+   "dia": 0,
+   "tema": "Clic Hotel ya está en Google Play",
+   "fecha": "2026-10-17",
+   "tipo": "historia",
+   "hora": "13:00",
+   "archivo": "clichotel/google-play-historia.png",
+   "url": "https://clicasist.github.io/medios-ig/clichotel/google-play-historia.png",
+   "media_type": "STORIES",
+   "texto": null
+  },
+  {
+   "marca": "clichotel",
+   "marca_nombre": "Clic Hotel",
    "dia": 6,
    "tema": "¿Es para mí?",
    "fecha": "2026-10-17",
