@@ -1043,6 +1043,61 @@
    "media_type": "REELS",
    "texto": "¿Sabes cuánto te quedó este mes?\n\nClic Hotel suma las ventas del mes, separa el IVA, resta los gastos y te dice la utilidad: lo que de verdad te queda.\n\nPruébala gratis 30 días, sin registrar tarjeta.\nclicas.app/hoteles\n\n#hotel #hostal #cabañas #hospedaje #turismochile #clichotel",
    "portada_ms": 8000
+  },
+  {
+   "marca": "clicas",
+   "marca_nombre": "ClicAs",
+   "dia": 11,
+   "tema": "Pensado para tu rubro (oscuro)",
+   "fecha": "2026-11-03",
+   "tipo": "reel",
+   "hora": "20:30",
+   "archivo": "rediseno/clicas-rubros.mp4",
+   "url": "https://clicasist.github.io/medios-ig/rediseno/clicas-rubros.mp4",
+   "media_type": "REELS",
+   "texto": "¿Centro de estética, peluquería, barbería, manicure, masajes o tatuajes? Para todo negocio con agenda. ClicAs te deja la agenda, los recordatorios, el historial de tus clientes y las ventas y gastos en un solo lugar. 30 días gratis, sin tarjeta. Después desde $4.990 al mes. clicas.app/estetica",
+   "portada_ms": 10000
+  },
+  {
+   "marca": "clichotel",
+   "marca_nombre": "Clic Hotel",
+   "dia": 11,
+   "tema": "Pensado para tu rubro (oscuro)",
+   "fecha": "2026-11-04",
+   "tipo": "reel",
+   "hora": "20:30",
+   "archivo": "rediseno/clichotel-rubros.mp4",
+   "url": "https://clicasist.github.io/medios-ig/rediseno/clichotel-rubros.mp4",
+   "media_type": "REELS",
+   "texto": "¿Hotel, hostal, backpackers, cabañas, camping, glamping o motel? Clic Hotel te ordena las habitaciones, las reservas, el historial de tus huéspedes y las ventas y gastos en un solo lugar. 30 días gratis, sin tarjeta. Después desde $4.990 al mes. clicas.app/hoteles",
+   "portada_ms": 10000
+  },
+  {
+   "marca": "clicvet",
+   "marca_nombre": "ClicVet",
+   "dia": 11,
+   "tema": "Pensado para tu rubro (oscuro)",
+   "fecha": "2026-11-05",
+   "tipo": "reel",
+   "hora": "20:30",
+   "archivo": "rediseno/clicvet-rubros.mp4",
+   "url": "https://clicasist.github.io/medios-ig/rediseno/clicvet-rubros.mp4",
+   "media_type": "REELS",
+   "texto": "¿Clínica veterinaria, consulta, hospital, vacunatorio o veterinaria a domicilio? ClicVet te ordena las fichas de las mascotas y sus dueños, la agenda, los recordatorios y las ventas y gastos en un solo lugar. 30 días gratis, sin tarjeta. Después desde $4.990 al mes. clicas.app/veterinaria",
+   "portada_ms": 10000
+  },
+  {
+   "marca": "clicas",
+   "marca_nombre": "ClicAs",
+   "dia": 11,
+   "tema": "Lanzamiento (oscuro)",
+   "fecha": "2026-11-09",
+   "tipo": "reel",
+   "hora": "20:30",
+   "archivo": "rediseno/clicas-lanzamiento.mp4",
+   "url": "https://clicasist.github.io/medios-ig/rediseno/clicas-lanzamiento.mp4",
+   "media_type": "REELS",
+   "texto": "¿Necesitas organizar mejor tu negocio? 📈\n\nAgenda, fichas, ventas, caja, gastos, inventario,  estrategias de mejoramiento , proveedores en un solo lugar. Recordatorios por WhatsApp listos para enviar con un clic , reportes con y sin impuestos, para que decidas con números.\n\nRecuerda, Un negocio mal administrado no da buenos resultados 📉\n\nAgrega a tus profesionales y sus comisiones se calculan solas.\n\nPrueba 30 días gratis , Después, precios de lanzamiento desde $4.990 al mes.\nclicas.app/estetica\n\n#estetica #peluqueria #barberia #spa #manicure #cejasypestanas #emprendimientochile #agendaonline #clicas"
   }
  ]
 }
