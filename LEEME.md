@@ -61,10 +61,10 @@ Borrar este repositorio. Los medios originales están en
 ## Anuncios por estilo (15-10-2026)
 
 `estilos/` — cuatro anuncios hechos con `clic-herramientas/generador-instagram/anuncios_estilos/`.
-Las cuatro **historias** se publicaron el 15-10 a mano (`--una`). Los **reels** salen solos:
-24, 25, 26 y 27 de octubre a las 20:30. Esos reels llevan `portada_ms: 8000` en el plan: el
-publicador lo manda como `thumb_offset` para que la portada sea el cuadro con todo a la vista
-(el primer cuadro de la animación está casi vacío). Probado con un contenedor real sin publicar.
+Las cuatro **historias** se publicaron el 15-10 a mano (`--una`). Los reels del 24 al 27-10 se
+quitaron el 16-10 (ver abajo) y en su lugar las cuatro vuelven a salir como historias del 30-10 al
+02-11, con nombre `N-historia-b.png` porque el registro ya tiene `N-historia.png` como publicada.
+El publicador sigue aceptando `portada_ms` → `thumb_offset` para elegir la portada de un reel.
 
 **Segunda tanda (16-10-2026), piezas 5 a 12:** cada app en los cuatro estilos (la máquina va rosa en
 ClicAs, lila en ClicVet y celeste en Clic Hotel). Solo como **historias**, a las 13:00 del 22 al 29-10.
