@@ -71,7 +71,8 @@ ClicAs, lila en ClicVet y celeste en Clic Hotel). Solo como **historias**, a las
 Sin reels a propósito: el dueño pidió que los reels mantengan el estilo de lo ya publicado para no
 desordenar la cuadrícula del perfil (los mp4 quedan fuera del repo, en Downloads/anuncios-estilos/reels).
 
-**Reels de los 12 anuncios con el estilo de la serie (16-10-2026):** `estilos/N-reel-serie.mp4`, hechos
-con `generador-instagram/anuncios_serie.py` (las mismas escenas de `semana_instagram.py`: fondo oscuro,
-píldora, capturas en el teléfono y el cierre de «Prueba gratis»). Salen a las 20:30 del 24-10 al 04-11,
-con los textos que ya tenían los reels por estilo.
+**Reels de los 12 anuncios (16-10-2026):** `estilos/N-reel-oscuro.mp4`. El MISMO diseño y texto que
+las historias, pero con los tonos oscuros de la serie del perfil (`anuncios_estilos/render-vertical.mjs
+reels oscuro`: el fondo de `fondo()` de marcas_instagram.py copiado en CSS, medido contra un cuadro real).
+Salen a las 20:30 del 24-10 al 04-11, con `portada_ms: 8000`. (Una primera versión con las escenas de
+la serie, `N-reel-serie.mp4`, se reemplazó el mismo día a pedido del dueño.)
