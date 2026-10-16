@@ -1273,6 +1273,74 @@
    "url": "https://clicasist.github.io/medios-ig/estilos/grupo-link-24-7-historia.mp4",
    "media_type": "STORIES",
    "texto": null
+  },
+  {
+   "marca": "grupo",
+   "marca_nombre": "Grupo Clic",
+   "dia": 12,
+   "tema": "Link de reservas 24/7 (con voz)",
+   "fecha": "2026-11-12",
+   "tipo": "reel",
+   "hora": "20:30",
+   "archivo": "estilos/grupo-link-24-7-reel.mp4",
+   "url": "https://clicasist.github.io/medios-ig/estilos/grupo-link-24-7-reel.mp4",
+   "media_type": "REELS",
+   "texto": "Tu link de reservas, disponible 24/7 con tus horas disponibles.\n\nNo pierdes clientes que se van a otro lado porque no les respondiste rápido. A ti solo te llega la reserva para confirmar, y tu agenda se ordena sola. Y un día antes de la cita les envías el recordatorio con un clic, para asegurar la asistencia.\n\nPruébala gratis 30 días, sin registrar tarjeta.\nclicas.app\n\n#agendaonline #reservasonline #estetica #peluqueria #veterinaria #clicas #clicvet #clichotel",
+   "portada_ms": 12000
+  },
+  {
+   "marca": "clichotel",
+   "marca_nombre": "Clic Hotel",
+   "dia": 12,
+   "tema": "Ganancia real del mes y del año (con voz)",
+   "fecha": "2026-11-13",
+   "tipo": "reel",
+   "hora": "20:30",
+   "archivo": "estilos/clichotel-ganancia-real-reel.mp4",
+   "url": "https://clicasist.github.io/medios-ig/estilos/clichotel-ganancia-real-reel.mp4",
+   "media_type": "REELS",
+   "texto": "¿Sabes cuál es la verdadera ganancia de tu hotel, al mes y al año?\n\nClic Hotel le resta a tus ventas sin IVA los gastos del mes y los gastos fijos. Así ves tu utilidad neta real, mes a mes, y en el balance del año, cuánto te quedó de verdad.\n\nPruébala gratis 30 días, sin registrar tarjeta.\nclicas.app/hoteles\n\n#hotel #hostal #cabañas #hospedaje #turismochile #clichotel",
+   "portada_ms": 11000
+  },
+  {
+   "marca": "clichotel",
+   "marca_nombre": "Clic Hotel",
+   "dia": 12,
+   "tema": "Ganancia real del mes y del año (con voz)",
+   "fecha": "2026-11-13",
+   "tipo": "historia",
+   "hora": "13:00",
+   "archivo": "estilos/clichotel-ganancia-real-historia.mp4",
+   "url": "https://clicasist.github.io/medios-ig/estilos/clichotel-ganancia-real-historia.mp4",
+   "media_type": "STORIES",
+   "texto": null
+  },
+  {
+   "marca": "clicvet",
+   "marca_nombre": "ClicVet",
+   "dia": 12,
+   "tema": "Dueños y mascotas (con voz)",
+   "fecha": "2026-11-14",
+   "tipo": "reel",
+   "hora": "20:30",
+   "archivo": "estilos/clicvet-duenos-mascotas-reel.mp4",
+   "url": "https://clicasist.github.io/medios-ig/estilos/clicvet-duenos-mascotas-reel.mp4",
+   "media_type": "REELS",
+   "texto": "En ClicVet puedes ver cuántas mascotas tiene cada dueño.\n\nLas fichas clínicas quedan asociadas a su dueño, con la próxima vacuna de cada una, y cada atención queda en el historial con su fecha y su servicio. Así tú y el dueño llevan mejor el orden de las atenciones.\n\nPruébala gratis 30 días, sin registrar tarjeta.\nclicas.app/veterinaria\n\n#veterinaria #clinicaveterinaria #mascotas #perros #gatos #clicvet",
+   "portada_ms": 12000
+  },
+  {
+   "marca": "clicvet",
+   "marca_nombre": "ClicVet",
+   "dia": 12,
+   "tema": "Dueños y mascotas (con voz)",
+   "fecha": "2026-11-14",
+   "tipo": "historia",
+   "hora": "13:00",
+   "archivo": "estilos/clicvet-duenos-mascotas-historia.mp4",
+   "url": "https://clicasist.github.io/medios-ig/estilos/clicvet-duenos-mascotas-historia.mp4",
+   "media_type": "STORIES",
+   "texto": null
   }
  ]
 }
