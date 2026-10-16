@@ -1260,6 +1260,19 @@
    "url": "https://clicasist.github.io/medios-ig/rediseno/clicvet-recorrido-historia.mp4",
    "media_type": "STORIES",
    "texto": null
+  },
+  {
+   "marca": "grupo",
+   "marca_nombre": "Grupo Clic",
+   "dia": 11,
+   "tema": "Link de reservas 24/7 (con voz)",
+   "fecha": "2026-10-16",
+   "tipo": "historia",
+   "hora": "13:00",
+   "archivo": "estilos/grupo-link-24-7-historia.mp4",
+   "url": "https://clicasist.github.io/medios-ig/estilos/grupo-link-24-7-historia.mp4",
+   "media_type": "STORIES",
+   "texto": null
   }
  ]
 }
