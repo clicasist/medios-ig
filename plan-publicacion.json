@@ -578,6 +578,19 @@
    "texto": null
   },
   {
+   "marca": "grupo",
+   "marca_nombre": "Grupo Clic",
+   "dia": 0,
+   "tema": "Las tres apps ya están en Google Play",
+   "fecha": "2026-10-18",
+   "tipo": "historia",
+   "hora": "13:00",
+   "archivo": "grupo/tres-apps-play-historia.png",
+   "url": "https://clicasist.github.io/medios-ig/grupo/tres-apps-play-historia.png",
+   "media_type": "STORIES",
+   "texto": null
+  },
+  {
    "marca": "clicvet",
    "marca_nombre": "ClicVet",
    "dia": 6,
@@ -589,6 +602,20 @@
    "url": "https://clicasist.github.io/medios-ig/clicvet/dia-6-reel.mp4",
    "media_type": "REELS",
    "texto": "¿Esto sirve para lo mío?\n\nClínicas veterinarias · Consultas · Veterinaria a domicilio · Peluquería canina · Baño y spa de mascotas · Pet shop. Si agendas horas o cobras, te sirve.\n\nPruébala gratis 30 días, sin registrar tarjeta.\nclicas.app/veterinaria\n\n#veterinaria #clinicaveterinaria #peluqueriacanina #petshop #mascotas #emprendimientochile #pymechile #software #clicvet"
+  },
+  {
+   "marca": "grupo",
+   "marca_nombre": "Grupo Clic",
+   "dia": 0,
+   "tema": "Las tres apps ya están en Google Play",
+   "fecha": "2026-10-18",
+   "tipo": "reel",
+   "hora": "20:30",
+   "archivo": "grupo/tres-apps-play-reel.mp4",
+   "url": "https://clicasist.github.io/medios-ig/grupo/tres-apps-play-reel.mp4",
+   "media_type": "REELS",
+   "texto": "ClicAs, Clic Hotel y ClicVet ya están en Google Play.\n\nDescarga la app en tu Android y lleva la agenda o las reservas, las fichas de tus clientes y la caja de tu negocio desde el celular. La versión web sigue funcionando con la misma cuenta.\n\nPruébalas gratis 30 días, sin registrar tarjeta.\nclicas.app\n\n#googleplay #android #agendaonline #reservasonline #estetica #peluqueria #hoteles #hostales #veterinaria #clicas #clichotel #clicvet",
+   "portada_ms": 8000
   },
   {
    "marca": "clicas",
