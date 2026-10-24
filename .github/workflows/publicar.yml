@@ -8,6 +8,7 @@ name: Publicar en Instagram
 on:
   schedule:
     # GitHub usa UTC. Chile está en UTC-3 de septiembre a abril.
+    - cron: '40 11 * * *'    # 08:40 en Chile — historias «Economía para tu negocio»
     - cron: '5 16 * * *'     # 13:05 en Chile — la historia del día
     - cron: '35 23 * * *'    # 20:35 en Chile — el reel del día
   workflow_dispatch:
