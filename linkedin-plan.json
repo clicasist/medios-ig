@@ -1,0 +1,34 @@
+{
+ "generado": "2026-10-29",
+ "organizacion": "Grupo Clic (urn:li:organization:146745171)",
+ "nota": "Imagen a la página de empresa. Las rutas de 'archivo' son locales al repo (LinkedIn sube el archivo, no una URL).",
+ "publicaciones": [
+  {
+   "marca": "clicas",
+   "marca_nombre": "ClicAs",
+   "fecha": "2026-12-26",
+   "hora": "13:00",
+   "archivo": "linkedin/reservas-clicas.png",
+   "alt": "Anuncio de ClicAs: aumente sus reservas con su enlace de reservas.",
+   "texto": "Aumente sus reservas con ClicAs.\n\nSus clientes reservan desde su enlace, de día o de noche: ven las horas libres en tiempo real y confirman por WhatsApp. Usted solo ve la agenda llenarse.\n\nPruébelo gratis 30 días, sin registrar tarjeta.\napp.clicas.app\n\n#estética #agendaonline #pymes"
+  },
+  {
+   "marca": "clichotel",
+   "marca_nombre": "Clic Hotel",
+   "fecha": "2026-12-27",
+   "hora": "13:00",
+   "archivo": "linkedin/reservas-clichotel.png",
+   "alt": "Anuncio de Clic Hotel: aumente sus reservas con su enlace de reservas.",
+   "texto": "Aumente sus reservas con Clic Hotel.\n\nSus huéspedes reservan habitación desde su enlace, con la disponibilidad siempre al día, y confirman por WhatsApp.\n\nPruébelo gratis 30 días, sin registrar tarjeta.\nhotel.clicas.app\n\n#hotelería #turismo #pymes"
+  },
+  {
+   "marca": "clicvet",
+   "marca_nombre": "ClicVet",
+   "fecha": "2026-12-28",
+   "hora": "13:00",
+   "archivo": "linkedin/reservas-clicvet.png",
+   "alt": "Anuncio de ClicVet: aumente sus reservas con su enlace de reservas.",
+   "texto": "Aumente sus reservas con ClicVet.\n\nLos dueños agendan la hora de su mascota desde su enlace, a cualquier hora: horas libres en tiempo real y confirmación por WhatsApp.\n\nPruébelo gratis 30 días, sin registrar tarjeta.\nvet.clicas.app\n\n#veterinaria #mascotas #pymes"
+  }
+ ]
+}

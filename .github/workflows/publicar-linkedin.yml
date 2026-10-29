@@ -1,0 +1,62 @@
+# Publica en la página de empresa de LinkedIn (Grupo Clic) a la hora que toca,
+# igual que publicar.yml hace con Instagram. El reloj está aquí porque LinkedIn
+# tampoco programa: hay que llamar a la API en el momento.
+name: Publicar en LinkedIn
+
+on:
+  schedule:
+    # GitHub usa UTC. Chile está en UTC-3 de septiembre a abril.
+    - cron: '5 16 * * *'     # 13:05 en Chile — el post del día
+    - cron: '35 23 * * *'    # 20:35 en Chile — repesca por si el reloj llegó tarde
+  workflow_dispatch:
+    inputs:
+      ensayo:
+        description: Solo enseñar qué haría, sin publicar
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-linkedin
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Publicar lo que ya tocaba
+        env:
+          LINKEDIN_TOKEN: ${{ secrets.LINKEDIN_TOKEN }}
+          LINKEDIN_ORG: ${{ vars.LINKEDIN_ORG }}
+          ENSAYO: ${{ inputs.ensayo }}
+        run: |
+          if [ -z "$LINKEDIN_TOKEN" ]; then
+            echo "Falta el secreto LINKEDIN_TOKEN en el repositorio." >&2
+            exit 1
+          fi
+          if [ "$ENSAYO" = "true" ]; then
+            python publicar_linkedin.py --pendientes --ensayo
+          else
+            python publicar_linkedin.py --pendientes
+          fi
+
+      - name: Anotar lo ya publicado
+        if: ${{ inputs.ensayo != 'true' }}
+        run: |
+          if [ -n "$(git status --porcelain publicado-linkedin.json)" ]; then
+            git config user.name  "clicasist"
+            git config user.email "clicasist@gmail.com"
+            git add publicado-linkedin.json
+            git commit -m "Registro: LinkedIn de $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "nada nuevo que anotar"
+          fi
