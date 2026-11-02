@@ -38,9 +38,11 @@ jobs:
           LINKEDIN_ORG: ${{ vars.LINKEDIN_ORG }}
           ENSAYO: ${{ inputs.ensayo }}
         run: |
+          # Sin el secreto no se corta aquí: publicar_linkedin.py pide el token
+          # solo si hay algo que ya tocaba publicar. Así no falla todos los días
+          # mientras el plan no tenga nada pendiente (el primero es el 26-12).
           if [ -z "$LINKEDIN_TOKEN" ]; then
-            echo "Falta el secreto LINKEDIN_TOKEN en el repositorio." >&2
-            exit 1
+            echo "Aviso: falta el secreto LINKEDIN_TOKEN (ver linkedin/GUIA-token-linkedin.md)."
           fi
           if [ "$ENSAYO" = "true" ]; then
             python publicar_linkedin.py --pendientes --ensayo
