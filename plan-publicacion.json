@@ -2157,6 +2157,33 @@
    "portada_ms": 12000
   },
   {
+   "marca": "clicas",
+   "marca_nombre": "ClicAs",
+   "dia": 15,
+   "tema": "30 días gratis para probar ClicAs (voz y música)",
+   "fecha": "2026-11-15",
+   "tipo": "historia",
+   "hora": "13:00",
+   "archivo": "estilos/ref2-1-clicas-30-dias-gratis-historia.png",
+   "url": "https://clicasist.github.io/medios-ig/estilos/ref2-1-clicas-30-dias-gratis-historia.png",
+   "media_type": "STORIES",
+   "texto": null
+  },
+  {
+   "marca": "clicas",
+   "marca_nombre": "ClicAs",
+   "dia": 15,
+   "tema": "30 días gratis para probar ClicAs (voz y música)",
+   "fecha": "2026-11-15",
+   "tipo": "reel",
+   "hora": "20:30",
+   "archivo": "estilos/ref2-1-clicas-30-dias-gratis-reel.mp4",
+   "url": "https://clicasist.github.io/medios-ig/estilos/ref2-1-clicas-30-dias-gratis-reel.mp4",
+   "media_type": "REELS",
+   "texto": "30 días gratis para probar ClicAs con tus clientas reales.\n\nAgenda en línea, link de reservas, caja y comisiones, y fichas con control de sesiones. Sin tarjeta.\n\nclicas.app/estetica\n\n#clicas #agendaonline #estetica #peluqueria #barberia #manicure",
+   "portada_ms": 9500
+  },
+  {
    "marca": "grupo",
    "marca_nombre": "Grupo Clic",
    "dia": 14,
@@ -2194,6 +2221,33 @@
    "url": "https://clicasist.github.io/medios-ig/ciencia/economia-14-c.png",
    "media_type": "STORIES",
    "texto": null
+  },
+  {
+   "marca": "clichotel",
+   "marca_nombre": "Clic Hotel",
+   "dia": 17,
+   "tema": "Software para hostal con link de reservas (voz y música)",
+   "fecha": "2026-11-17",
+   "tipo": "historia",
+   "hora": "13:00",
+   "archivo": "estilos/ref2-2-clichotel-busqueda-historia.png",
+   "url": "https://clicasist.github.io/medios-ig/estilos/ref2-2-clichotel-busqueda-historia.png",
+   "media_type": "STORIES",
+   "texto": null
+  },
+  {
+   "marca": "clichotel",
+   "marca_nombre": "Clic Hotel",
+   "dia": 17,
+   "tema": "Software para hostal con link de reservas (voz y música)",
+   "fecha": "2026-11-17",
+   "tipo": "reel",
+   "hora": "20:30",
+   "archivo": "estilos/ref2-2-clichotel-busqueda-reel.mp4",
+   "url": "https://clicasist.github.io/medios-ig/estilos/ref2-2-clichotel-busqueda-reel.mp4",
+   "media_type": "REELS",
+   "texto": "¿Buscas un software para tu hostal con link de reservas?\n\nCon Clic Hotel tus huéspedes eligen sus fechas y solo ven las habitaciones libres, y tú ves quién llega, quién se va y qué queda libre.\n\n30 días gratis, sin tarjeta.\nclicas.app/hoteles\n\n#clichotel #hostal #backpackers #cabañas #hospedaje #reservasonline",
+   "portada_ms": 12000
   },
   {
    "marca": "grupo",
@@ -2235,6 +2289,33 @@
    "texto": null
   },
   {
+   "marca": "clicvet",
+   "marca_nombre": "ClicVet",
+   "dia": 19,
+   "tema": "Así funciona ClicVet en 5 pasos (voz y música)",
+   "fecha": "2026-11-19",
+   "tipo": "historia",
+   "hora": "13:00",
+   "archivo": "estilos/ref2-5-clicvet-carrusel-historia.mp4",
+   "url": "https://clicasist.github.io/medios-ig/estilos/ref2-5-clicvet-carrusel-historia.mp4",
+   "media_type": "STORIES",
+   "texto": null
+  },
+  {
+   "marca": "clicvet",
+   "marca_nombre": "ClicVet",
+   "dia": 19,
+   "tema": "Así funciona ClicVet en 5 pasos (voz y música)",
+   "fecha": "2026-11-19",
+   "tipo": "reel",
+   "hora": "20:30",
+   "archivo": "estilos/ref2-5-clicvet-carrusel-reel.mp4",
+   "url": "https://clicasist.github.io/medios-ig/estilos/ref2-5-clicvet-carrusel-reel.mp4",
+   "media_type": "REELS",
+   "texto": "Así funciona ClicVet en tu veterinaria:\n\n1. Reserva en línea: los dueños agendan solos, y solo en horas libres.\n2. Agenda por veterinario.\n3. Ficha clínica de cada mascota.\n4. Vacunas y controles: ves las próximas y las vencidas, y avisas por WhatsApp.\n5. Inventario de medicamentos con aviso de stock bajo.\n\n30 días gratis, sin tarjeta.\nvet.clicas.app\n\n#clicvet #veterinaria #veterinario #agendaveterinaria #mascotas",
+   "portada_ms": 4500
+  },
+  {
    "marca": "grupo",
    "marca_nombre": "Grupo Clic",
    "dia": 16,
@@ -2274,6 +2355,33 @@
    "texto": null
   },
   {
+   "marca": "clicas",
+   "marca_nombre": "ClicAs",
+   "dia": 21,
+   "tema": "Una agenda pensada para las independientes (voz y música)",
+   "fecha": "2026-11-21",
+   "tipo": "historia",
+   "hora": "13:00",
+   "archivo": "estilos/ref2-4-clicas-independientes-historia.png",
+   "url": "https://clicasist.github.io/medios-ig/estilos/ref2-4-clicas-independientes-historia.png",
+   "media_type": "STORIES",
+   "texto": null
+  },
+  {
+   "marca": "clicas",
+   "marca_nombre": "ClicAs",
+   "dia": 21,
+   "tema": "Una agenda pensada para las independientes (voz y música)",
+   "fecha": "2026-11-21",
+   "tipo": "reel",
+   "hora": "20:30",
+   "archivo": "estilos/ref2-4-clicas-independientes-reel.mp4",
+   "url": "https://clicasist.github.io/medios-ig/estilos/ref2-4-clicas-independientes-reel.mp4",
+   "media_type": "REELS",
+   "texto": "Una agenda pensada para las independientes.\n\nManicuristas, lashistas, estilistas y cosmetólogas: tus clientas reservan con tu link, te llega cada reserva y tú la confirmas. Agenda, fichas y caja en tu celular, sin permanencia.\n\nCrea tu cuenta gratis: clicas.app/estetica\n\n#clicas #independientes #manicurista #lashista #estilista #agendaonline",
+   "portada_ms": 11500
+  },
+  {
    "marca": "grupo",
    "marca_nombre": "Grupo Clic",
    "dia": 17,
@@ -2311,6 +2419,33 @@
    "url": "https://clicasist.github.io/medios-ig/ciencia/economia-17-c.png",
    "media_type": "STORIES",
    "texto": null
+  },
+  {
+   "marca": "clichotel",
+   "marca_nombre": "Clic Hotel",
+   "dia": 23,
+   "tema": "Reservas directas sin comisión (voz y música)",
+   "fecha": "2026-11-23",
+   "tipo": "historia",
+   "hora": "13:00",
+   "archivo": "estilos/ref2-3-clichotel-sin-comision-historia.png",
+   "url": "https://clicasist.github.io/medios-ig/estilos/ref2-3-clichotel-sin-comision-historia.png",
+   "media_type": "STORIES",
+   "texto": null
+  },
+  {
+   "marca": "clichotel",
+   "marca_nombre": "Clic Hotel",
+   "dia": 23,
+   "tema": "Reservas directas sin comisión (voz y música)",
+   "fecha": "2026-11-23",
+   "tipo": "reel",
+   "hora": "20:30",
+   "archivo": "estilos/ref2-3-clichotel-sin-comision-reel.mp4",
+   "url": "https://clicasist.github.io/medios-ig/estilos/ref2-3-clichotel-sin-comision-reel.mp4",
+   "media_type": "REELS",
+   "texto": "Reservas directas, sin comisión por reserva.\n\nComparte tu link de Clic Hotel y recibe las solicitudes en tu calendario. Clic Hotel no cobra comisión por reserva: pagas solo tu plan mensual.\n\n30 días gratis, sin tarjeta.\nclicas.app/hoteles\n\n#clichotel #hoteles #hostales #cabañas #glamping #reservasdirectas",
+   "portada_ms": 11000
   },
   {
    "marca": "grupo",
