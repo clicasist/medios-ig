@@ -140,7 +140,36 @@ def esperar(contenedor, token):
     raise RuntimeError('Meta sigue procesando después de %d s' % ESPERA_MAX)
 
 
+def publicar_carrusel(e, ig_id, token, solo_preparar=False):
+    """Carrusel de imágenes (2 a 10): un contenedor por lámina, marcado como
+    `is_carousel_item`, y después el contenedor CAROUSEL con los hijos en orden.
+
+    `e['urls']` trae las láminas en el orden en que se ven. Con `solo_preparar`
+    crea los contenedores y comprueba que Meta los acepta, pero NO publica
+    (los contenedores sin publicar caducan solos en 24 h)."""
+    urls = e.get('urls') or []
+    if not 2 <= len(urls) <= 10:
+        raise RuntimeError('un carrusel lleva de 2 a 10 láminas (trae %d)' % len(urls))
+    hijos = []
+    for url in urls:
+        c = llamar('/%s/media' % ig_id, token,
+                   datos={'image_url': url, 'is_carousel_item': 'true'})['id']
+        esperar(c, token)
+        hijos.append(c)
+    campos = {'media_type': 'CAROUSEL', 'children': ','.join(hijos)}
+    if e.get('texto'):
+        campos['caption'] = e['texto']
+    contenedor = llamar('/%s/media' % ig_id, token, datos=campos)['id']
+    esperar(contenedor, token)
+    if solo_preparar:
+        return contenedor
+    return llamar('/%s/media_publish' % ig_id, token,
+                  datos={'creation_id': contenedor})['id']
+
+
 def publicar(e, ig_id, token):
+    if e['media_type'] == 'CAROUSEL':
+        return publicar_carrusel(e, ig_id, token)
     campos = {'media_type': e['media_type']}
     if e['archivo'].endswith('.mp4'):
         campos['video_url'] = e['url']
@@ -178,10 +207,24 @@ def main():
     p.add_argument('--hoy', action='store_true')
     p.add_argument('--fecha')
     p.add_argument('--una')
+    # Prueba de un carrusel del plan: crea los contenedores en Meta y confirma
+    # que los acepta, SIN publicar.
+    p.add_argument('--probar-carrusel')
     args = p.parse_args()
 
     plan = json.load(io.open(PLAN, encoding='utf-8'))
     todas = plan['publicaciones']
+
+    if args.probar_carrusel:
+        e = next((x for x in todas if x['archivo'] == args.probar_carrusel), None)
+        if not e or e.get('media_type') != 'CAROUSEL':
+            raise SystemExit('no hay un carrusel con archivo %s en el plan' % args.probar_carrusel)
+        token = leer_token()
+        ig_id, usuario, _ = cuenta(token)
+        c = publicar_carrusel(e, ig_id, token, solo_preparar=True)
+        print('carrusel aceptado por Meta en @%s (%d láminas, contenedor %s, SIN publicar)'
+              % (usuario, len(e['urls']), c))
+        return
 
     if args.verificar:
         token = leer_token()
