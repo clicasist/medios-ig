@@ -534,5 +534,37 @@
  "rediseno/clicvet-recorrido.mp4": {
   "id": "18601315735068357",
   "cuando": "2026-11-09T02:56:55"
+ },
+ "ciencia/economia-11-a.png": {
+  "id": "18094832672664759",
+  "cuando": "2026-11-09T21:36:59"
+ },
+ "ciencia/economia-11-b.png": {
+  "id": "18135276784823272",
+  "cuando": "2026-11-09T21:37:09"
+ },
+ "ciencia/economia-11-c.png": {
+  "id": "17960755017016151",
+  "cuando": "2026-11-09T21:37:35"
+ },
+ "calculadora/carrusel-liquidacion": {
+  "id": "18137525908660457",
+  "cuando": "2026-11-09T21:40:10"
+ },
+ "rediseno/clicas-lanzamiento-historia.mp4": {
+  "id": "18091416818269790",
+  "cuando": "2026-11-09T21:41:17"
+ },
+ "estilos/resenas-clichotel-historia.mp4": {
+  "id": "18078852872744176",
+  "cuando": "2026-11-09T21:42:23"
+ },
+ "estilos/mensajes-2-orden-historia.png": {
+  "id": "17933728035166402",
+  "cuando": "2026-11-09T21:42:50"
+ },
+ "estilos/mensajes-2-orden-reel.mp4": {
+  "id": "18133071553841541",
+  "cuando": "2026-11-09T21:43:18"
  }
 }
