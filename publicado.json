@@ -582,5 +582,37 @@
  "cuentas/grupo-clic-reel.mp4": {
   "id": "18013119786003083",
   "cuando": "2026-11-11T02:58:21"
+ },
+ "ciencia/economia-12-a.png": {
+  "id": "18081115547551931",
+  "cuando": "2026-11-11T18:51:48"
+ },
+ "ciencia/economia-12-b.png": {
+  "id": "18119217556821063",
+  "cuando": "2026-11-11T18:52:16"
+ },
+ "ciencia/economia-12-c.png": {
+  "id": "17966730300238773",
+  "cuando": "2026-11-11T18:52:44"
+ },
+ "calculadora/carrusel-finiquito": {
+  "id": "18097393226148062",
+  "cuando": "2026-11-11T18:55:22"
+ },
+ "cuentas/clicas-reel-historia.mp4": {
+  "id": "18108467956988531",
+  "cuando": "2026-11-11T18:56:10"
+ },
+ "estilos/resenas-clicvet-historia.mp4": {
+  "id": "18145344709595639",
+  "cuando": "2026-11-11T18:56:57"
+ },
+ "estilos/mensajes-3-link-reservas-historia.png": {
+  "id": "17966813418209874",
+  "cuando": "2026-11-11T18:57:25"
+ },
+ "estilos/mensajes-3-link-reservas-reel.mp4": {
+  "id": "18449790577133495",
+  "cuando": "2026-11-11T18:58:14"
  }
 }
